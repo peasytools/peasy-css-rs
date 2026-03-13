@@ -1,0 +1,18 @@
+[package]
+name = "peasy-css"
+version = "0.1.1"
+edition = "2021"
+authors = ["PeasyTools"]
+description = "CSS code generator for Rust — create linear/radial gradients, box/text shadows, border-radius, flexbox layouts, and CSS grid. Zero external dependencies, outputs copy-paste CSS."
+license = "MIT"
+repository = "https://github.com/peasytools/peasy-css-rs"
+homepage = "https://peasycss.com"
+documentation = "https://docs.rs/peasy-css"
+readme = "README.md"
+keywords = ["css", "gradient", "shadow", "flexbox", "grid"]
+categories = ["web-programming", "template-engine"]
+
+exclude = ["target/", "demo.gif", "demo.tape"]
+
+[dependencies]
+thiserror = "2"
