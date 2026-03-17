@@ -3,6 +3,8 @@
 [![crates.io](https://img.shields.io/crates/v/peasy-css)](https://crates.io/crates/peasy-css)
 [![docs.rs](https://docs.rs/peasy-css/badge.svg)](https://docs.rs/peasy-css)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![crates.io](https://agentgif.com/badge/crates/peasy-css/version.svg)](https://crates.io/crates/peasy-css)
+[![GitHub stars](https://agentgif.com/badge/github/peasytools/peasy-css-rs/stars.svg)](https://github.com/peasytools/peasy-css-rs)
 
 Async Rust client for the [PeasyCSS](https://peasycss.com) API -- minify, beautify, and convert CSS units with tools for gradient generation, shadow creation, flexbox layouts, and grid systems. Built with reqwest, serde, and tokio.
 
