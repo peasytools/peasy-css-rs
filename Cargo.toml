@@ -1,18 +1,24 @@
 [package]
 name = "peasy-css"
-version = "0.1.1"
+version = "0.2.0"
 edition = "2021"
 authors = ["PeasyTools"]
-description = "CSS code generator for Rust — create linear/radial gradients, box/text shadows, border-radius, flexbox layouts, and CSS grid. Zero external dependencies, outputs copy-paste CSS."
+description = "Rust client for PeasyCSS — CSS tools, glossary, and guides API"
 license = "MIT"
 repository = "https://github.com/peasytools/peasy-css-rs"
 homepage = "https://peasycss.com"
 documentation = "https://docs.rs/peasy-css"
 readme = "README.md"
-keywords = ["css", "gradient", "shadow", "flexbox", "grid"]
-categories = ["web-programming", "template-engine"]
-
+keywords = ["css", "peasy", "api-client", "tools"]
+categories = ["api-bindings"]
 exclude = ["target/", "demo.gif", "demo.tape"]
 
 [dependencies]
+reqwest = { version = "0.12", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
 thiserror = "2"
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full"] }
+wiremock = "0.6"

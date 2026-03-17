@@ -1,7 +1,7 @@
-//! peasy-css — CSS code generator for Rust.
-//!
-//! Generate gradients, shadows, border-radius, flexbox, and grid CSS.
+pub mod client;
+pub mod error;
+pub mod types;
 
-mod engine;
-
-pub use engine::*;
+pub use client::Client;
+pub use error::{PeasyError, Result};
+pub use types::*;
